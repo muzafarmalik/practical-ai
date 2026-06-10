@@ -1,0 +1,16 @@
+# Practical AI Demo - Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core AI Libraries
+textblob>=0.17.1          # Sentiment analysis, NLP basics (lightweight, works offline)
+transformers>=4.35.0      # Hugging Face models (summarization, QA, classification)
+torch>=2.1.0              # PyTorch backend for transformers
+
+# OpenAI API (optional - needs API key)
+openai>=1.12.0            # GPT-4o-mini, ChatGPT API access
+
+# Utilities
+requests>=2.31.0          # HTTP requests for API calls
+
+# Note: TextBlob requires downloading corpora on first use:
+#   python -m textblob.download_corpora
